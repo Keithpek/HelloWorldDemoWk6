@@ -21,7 +21,7 @@ on:
       - name: Checkout Own Repo to cloud
         uses: actions/checkout@v2
         with:
-          repository: lowkh/HelloworldDemoT02
+          repository: lowkh/HelloWorldDemoT02
       
       - name: checkout private repo remotely
         uses: actions/checkout@v2
