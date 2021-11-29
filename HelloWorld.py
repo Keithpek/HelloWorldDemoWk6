@@ -1,11 +1,2 @@
-import pytest
-from HelloWorld import *
-
-def test_HelloWorld_NoInput():
-    result= HelloWorld()
-    assert result == "Hello World!"
-
-@pytest.mark.parametrize("name,expectedResult",[("Danny","Hello Danny!"),("Obama","Hello Obama!"),("Sleep","Hello Sleep!")])
-def test_HelloWorld_UserInput(name,expectedResult):
-    result = HelloWorld(name)
-    assert result == expectedResult
+def HelloWorld( input = "World"):
+  return "Hello " + input + "!"
