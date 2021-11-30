@@ -27,7 +27,7 @@ jobs:
     - name: Checkout private repo remotely
       uses: actions/checkout@v2
       with:
-        repository: Keithpek/TestDemo
+        repository: lowkh2/DevOpsQARepo
         path: tests
         token: ${{ secrets.QA_REMOTE }}
         
